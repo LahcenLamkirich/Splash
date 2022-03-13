@@ -49,6 +49,5 @@ public class ThirdActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

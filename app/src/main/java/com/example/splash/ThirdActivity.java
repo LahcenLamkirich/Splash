@@ -41,7 +41,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         usernamePlace.setText(username);
         passwordPlace.setText(password);
-
+        btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

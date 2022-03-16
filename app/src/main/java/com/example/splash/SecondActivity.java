@@ -10,6 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
     Button btnSend ;
@@ -43,6 +44,30 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+        Toast.makeText(this, "OnStart !", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(this, "OnResume !", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onPause(){
+        super.onPause();
+        Toast.makeText(this, "OnPause !", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+       
     }
 
 }

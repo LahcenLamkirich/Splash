@@ -7,6 +7,7 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -52,5 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }, 4005);
+
     }
+
+
 }

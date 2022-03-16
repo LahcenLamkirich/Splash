@@ -75,5 +75,5 @@ public class SecondActivity extends AppCompatActivity {
         super.onStop();
         Toast.makeText(this, "onStop !", Toast.LENGTH_SHORT).show();
     }
-    
+
 }

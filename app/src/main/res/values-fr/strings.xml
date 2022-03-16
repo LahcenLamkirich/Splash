@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">splash</string>
+    <string name="username">Mot Complet</string>
+    <string name="password">Mot de passe </string>
+    <string name="sendInfos">Envoyer Infos</string>
+    <string name="goBack">Retour !</string>
+</resources>

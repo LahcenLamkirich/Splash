@@ -46,6 +46,7 @@ public class SecondActivity extends AppCompatActivity {
         });
     }
 
+    // Exercice 3
     @Override
     protected void onStart(){
         super.onStart();

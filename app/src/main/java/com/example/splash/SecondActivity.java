@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
+    // La declaration des variables :
     Button btnSend ;
     EditText username, password ;
     @Override
